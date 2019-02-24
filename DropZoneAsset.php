@@ -8,13 +8,15 @@ class DropZoneAsset extends AssetBundle
 {
     public $sourcePath = '@bower/dropzone/dist';
     public $css = [
-        'min/dropzone.min.css',
+//        'min/dropzone.min.css',
+        'basic.css',
+        'dropzone.css',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\jui\JuiAsset',
     ];
     public $js = [
-        'min/dropzone.min.js',
+        'dropzone.js',
     ];
 }
